@@ -65,32 +65,43 @@
     }
 
     .grid-box-cars{
+        width: 100%;
         display: grid;
         grid-template-columns: 1fr;
+        width: 1fr;
         row-gap: 10px;
-        column-gap: 10px;
+        /* column-gap: 10px; */
         margin-left: 20px;
-        /* margin-left: 6px; */
+        margin-left: 0px;
         margin-bottom: 50px;
     }
     
     .grid-box-car{
         align-items: center;
-        width: 350px;
+        width: 380px;
         height: 200px;
+    }
+
+    .car-3{
+        margin-top: 30px;
     }
 
     .grid-box-car img{
         width: 80%;
         
+        
     }
 
     .vehicle-name{
-        font-size: 17px;
-        padding: 5px 30px;
+        font-size: 12px;
+        padding: 7px 45px;
+        margin-bottom: 20px;
     }
     
-    
+    .car-4, .car-5, .car-6{
+        display: none;
+    }
+
     .main-3, .main-4, .main-5, .main-6, footer{
         display: none;
     }
