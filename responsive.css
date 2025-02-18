@@ -1,6 +1,8 @@
 @media (max-width: 480px) {
     
-
+    body{
+        width:100%;
+    }
     .left{
         display: none;
     }
@@ -9,14 +11,15 @@
     }
 
     .middle{
+        display: flex;
+        justify-content: center;
         
     }
-
+    
     .logo{
         height: 50px;
         width: 80px;
         display: flex;
-        justify-content: center;
         align-items: center;
     }
     nav{
