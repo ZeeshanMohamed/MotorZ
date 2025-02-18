@@ -345,7 +345,7 @@ body{
     padding-top: 50px;
     text-align: center;
     background-color: rgb(197, 197, 197);
-    height: 500px;
+    height: 850px;
     color: black;
 }
 
@@ -361,13 +361,59 @@ body{
     margin-bottom: 30px;
 }
 
-.main-6 p{
+.para{
     text-align: justify;
     margin-left: 130px;
     margin-bottom: 10px;
     width: 80%;
 }
 
+
+.contact{
+    font-weight: bolder;
+    margin-top: 50px;
+}
+
+
+.contact-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 30px;
+    /* background-color: rgb(128, 127, 127); */
+    padding: 10px;
+}
+
+
+.name, .email{
+    padding: 10px 40px;
+}
+
+
+.message{
+    display: block;
+    /* justify-content: center; */
+    margin-left: 457px;
+    width: 429px;
+    height: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.submit{
+    width: 10%;
+    padding: 10px;
+    background: #ffffff;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.submit:hover {
+    background: #868686;
+}
 /* ---------------------------------------------------- */
 /* footer{
     background-color: rgb(255, 255, 255);
@@ -428,7 +474,7 @@ body{
 }
 
 .head{
-    font-size: 15px;
+    font-size: 12px;
 }
 
 .head h3:hover{
@@ -438,6 +484,7 @@ body{
 
 .p1{
     display: block;
+    font-size: 12px;
 }
 
 .p1 p:hover{
