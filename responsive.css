@@ -7,6 +7,14 @@
     .right{
         display: none;
     }
+
+    .middle{
+        height: 100px;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     nav{
         width: 480px;
     }
