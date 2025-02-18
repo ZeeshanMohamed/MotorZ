@@ -55,8 +55,40 @@
     /* ------------------------------------ */
 
     .main-2{
-        display: none;
-    } 
+        padding-top: 10px;
+        height: 1800px;
+    }
+    
+    .main-2 h1{
+        font-weight: lighter;
+        margin-bottom: 0px;
+    }
+
+    .grid-box-cars{
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 10px;
+        column-gap: 10px;
+        margin-left: 20px;
+        /* margin-left: 6px; */
+        margin-bottom: 50px;
+    }
+    
+    .grid-box-car{
+        align-items: center;
+        width: 350px;
+        height: 200px;
+    }
+
+    .grid-box-car img{
+        width: 80%;
+        
+    }
+
+    .vehicle-name{
+        font-size: 17px;
+        padding: 5px 30px;
+    }
     
     
     .main-3, .main-4, .main-5, .main-6, footer{
