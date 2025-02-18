@@ -41,16 +41,16 @@
     .motorz{
         padding-left: 30px;
         padding-top: 0px;
-        padding-bottom: 8px;
-        height: 40px;
+        padding-bottom: 1px;
+        height: 35px;
         
     }
     
     .learn-more{
         /* margin-top: 64px; */
-        margin-left: 64px;
+        margin-left: 57px;
         font-size: 10px;
-        padding: 6px 10px;
+        padding: 4px 6px;
     }
     /* ------------------------------------ */
 
