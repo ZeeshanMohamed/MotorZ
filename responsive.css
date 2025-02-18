@@ -1,1 +1,17 @@
-@media 
+@media (max-width: 480px) {
+    
+
+    .left{
+        display: none;
+    }
+    .right{
+        display: none;
+    }
+    nav{
+        width: 480px;
+    }
+
+    .main-1,.main-2, .main-3, .main-4, .main-5, .main-6, footer{
+        display: none;
+    }
+}
