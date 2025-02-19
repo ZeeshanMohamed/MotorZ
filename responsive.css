@@ -62,6 +62,7 @@
     .main-2 h1{
         font-weight: lighter;
         margin-bottom: 0px;
+        font-size: 23px;
     }
 
     .grid-box-cars{
@@ -88,6 +89,7 @@
 
     .grid-box-car img{
         width: 80%;
+        margin-left: 20px;
         
         
     }
