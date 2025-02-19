@@ -163,7 +163,7 @@
     .popup-container {
         display: block;
         position: relative;
-        width: 380px; /* Match image width */
+        width: 360px; /* Match image width */
         height: 275px; /* Match image height */
         overflow: hidden;
     }
@@ -190,25 +190,25 @@
 
     .popup-container h2{
         font-size: 18px;
-        width: 350px;
+        width: 330px;
         margin-bottom: 10px;
     }
 
     .popup-container h3{
         font-size: 14px;
-        width: 350px;
+        width: 330px;
         margin-bottom: 10px;
     }
 
     .popup-container p{
         font-size: 12px;
-        width: 350px;
+        width: 330px;
         margin-bottom: 10px;
     }
 
     .popup-container h4{
         font-size: 12px;
-        width: 345px;
+        width: 325px;
         margin-bottom: 10px;
     }
     
