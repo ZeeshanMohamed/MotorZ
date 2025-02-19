@@ -112,41 +112,114 @@
     } 
 
     .main-3-1-left{
-       text-align: center;
+       /* text-align: center;
+       width: 380px;
        margin-left: 0px;
+       background: url(image/main-3-1.webp);
+       background-size: cover; */
+       display: none;
+
     }
 
     .main-3-1-left h2{
         width: 70%;
         font-size: 18px;
+        text-align: center;
+        margin-left: 50px;
     }
     
     .main-3-1-left h3{
         width: 70%;
         font-size: 14px;
+        margin-left: 50px;
     }
     .main-3-1-left p{
-        width: 60%;
+        width: 80%;
         font-size: 14px;
-        margin-left: 20px;
+        margin-left: 35px;
     }
 
     .main-3-1-left h4{
-        width: 60%;
+        width: 80%;
         font-size: 14px;
-        margin-left: 20px;
+        margin-left: 35px;
     }
 
-    .main-3-img{
-        height: 200px;
-        width: 275px;
-        margin-left: 50px;
+    .main-img {
+        display: none;   
     }
 
-    .main-3-2-right{
+    .main-3-img:hover{
+        transition: none !important;
+
+    }
+
+    .popup-img{
+        height: 275px;
+        width: 375px;
+        margin-left: 7px;
+    }
+    
+    .popup-container {
+        display: block;
+        position: relative;
+        width: 380px; /* Match image width */
+        height: 275px; /* Match image height */
+        overflow: hidden;
+    }
+    
+    .popup-text {
+        margin-left: 7px;
+        position: absolute;
+        /* bottom: -50px; */
+        left: 0;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: white;
+        padding: 10px;
+        transition: bottom 0.3s ease;
+        text-align: center;
+        transition: height 2.3s ease;
+        bottom: -170px;
+        
+    }
+    
+    .popup-container:hover .popup-text {
+        bottom: 0;
+    }
+
+    .popup-container h2{
+        font-size: 18px;
+        width: 350px;
+        margin-bottom: 10px;
+    }
+
+    .popup-container h3{
+        font-size: 14px;
+        width: 350px;
+        margin-bottom: 10px;
+    }
+
+    .popup-container p{
+        font-size: 12px;
+        width: 350px;
+        margin-bottom: 10px;
+    }
+
+    .popup-container h4{
+        font-size: 12px;
+        width: 345px;
+        margin-bottom: 10px;
+    }
+    
+    .main-3-2-left, .main-3-2-right{
+        display: none;
+    }
+    /* .main-3-2-right{
         text-align: center;
         margin-left: 60px;
         margin-top: -5px;
+        display: none;
      }
  
      .main-3-2-right h2{
@@ -163,13 +236,13 @@
         font-size: 14px;
         margin-left: -19px;
     }
-     }
- 
-     
-
-
-
+    
+    
+     */
+    
+    
     .main-4, .main-5, .main-6, footer{
         display: none;
     }
+    
 }
