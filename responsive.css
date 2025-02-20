@@ -344,7 +344,7 @@
 
     .wheels-grid {
         display: grid;
-        grid-template-columns: 220px;
+        grid-template-columns: 190px;
         grid-template-rows: 150px;
         place-items: center;
     }
