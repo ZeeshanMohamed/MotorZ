@@ -83,6 +83,7 @@
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
+        place-items: center;
         row-gap: 10px;
         /* column-gap: 10px; */
         margin-left: 20px;
@@ -104,8 +105,10 @@
 
     .grid-box-car img {
         width: 80%;
-        margin-left: 8px;
-        display: inline;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
 
 
     }
@@ -131,6 +134,7 @@
     .main-3 {
         display: grid;
         grid-template-columns: 1fr;
+        place-items: center;
         height: 600px;
         text-align: left;
         width: 100%;
@@ -270,11 +274,13 @@
     
 
     .carousel-container {
-        width: 360px;
+        width: 95%;
         /* height: 300px; */
         overflow-x: auto;
         scroll-snap-type: x mandatory;
         display: flex;
+        /* justify-content: center; */
+        /* align-items: center; */
         gap: 10px;
         scroll-behavior: smooth;
     }
@@ -338,8 +344,9 @@
 
     .wheels-grid {
         display: grid;
-        grid-template-columns: 180px;
+        grid-template-columns: 220px;
         grid-template-rows: 150px;
+        place-items: center;
     }
 
     .wheel-1,
