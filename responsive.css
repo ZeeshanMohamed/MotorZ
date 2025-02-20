@@ -114,7 +114,7 @@
         font-size: 12px;
         padding: 7px 30px;
         margin-bottom: 20px;
-        margin-left: 12px;
+        margin-left: 10px;
     }
 
     .car-4,
@@ -408,8 +408,48 @@
         color: gray;
     }
     /* ------------------------------------------- */
-    .main-6,
+    .main-6{
+        font-size: 1em;
+        height: 1200px;
+    }
+
+    .main-6 h1{
+        font-size: 25px;
+    }
+
+    .main-6 p{
+        text-align: justify;
+        margin-left: 35px;
+    }
+
+    .contact-grid p{
+        font-size: 10px;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .name, .email{
+        margin-bottom: 10px;
+        margin-left: 6px;
+    }
+
+    .message{
+    display: block;
+    margin-left: 35px;
+    width: 290px;
+    height: 60px;
+    margin-top: 0px;
+    
+    }
+
+    .submit{
+        width: 30%;
+        margin-left: 8px;
+    }
+
+
+    /* ------------------------ */
     footer {
-        display: none;
+        
     }
 }
