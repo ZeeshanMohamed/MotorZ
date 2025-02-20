@@ -410,7 +410,7 @@
     /* ------------------------------------------- */
     .main-6{
         font-size: 1em;
-        height: 1200px;
+        height: 1400px;
     }
 
     .main-6 h1{
@@ -451,5 +451,33 @@
     /* ------------------------ */
     footer {
         
+    }
+
+    footer h1{
+        display: none;
+    }
+
+    .grid-footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .social-media{
+        display: flex;
+        flex-direction: row;
+        margin-top: 130px;
+        margin-left: -170px
+    }
+
+    .social-media i{
+        padding-right: 20px;
+    }
+    .head{
+        margin-left: -170px;
+    }
+
+    .p1 img{
+        margin-left: -58px;
+        height: 180px;
+        width: 180px;
     }
 }
