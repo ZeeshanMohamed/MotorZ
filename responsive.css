@@ -102,7 +102,7 @@
 
     .grid-box-car img {
         width: 80%;
-        margin-left: 20px;
+        margin-left: 8px;
 
 
     }
@@ -117,6 +117,10 @@
     .car-5,
     .car-6 {
         display: none;
+    }
+
+    .all-cars{
+        margin-left: 0;
     }
 
     /* --------------------------------------------- */
