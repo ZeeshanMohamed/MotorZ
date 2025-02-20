@@ -111,3 +111,6 @@ a:not(:hover)::after {
 
 }
 
+.responsive-right{
+    display: none;
+}

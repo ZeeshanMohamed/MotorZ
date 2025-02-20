@@ -138,6 +138,8 @@ body{
 
 .main-3{
     background: linear-gradient(0deg, rgb(255, 255, 255), rgb(95, 95, 95)) 0% 0% / auto repeat scroll padding-box border-box rgb(8, 8, 8);
+    background-repeat: no-repeat;
+    
     background-blend-mode: normal;
     height: 750px;
     display: grid;
@@ -378,6 +380,11 @@ body{
 .wheels img:hover{
     transform: scale(1.1);
     transition: 0.5s;
+
+}
+
+.more-wheels{
+    display: none;
 }
 /* --------------------------------------- */
 
@@ -425,7 +432,7 @@ body{
 
 
 .name, .email{
-    padding: 10px 40px;
+    padding: 10px 80px 10px 0px
 }
 
 
