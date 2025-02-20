@@ -94,6 +94,8 @@
         align-items: center;
         width: 350px;
         height: 200px;
+        display: flex;
+        flex-direction: column;
     }
 
     .car-3 {
@@ -103,14 +105,16 @@
     .grid-box-car img {
         width: 80%;
         margin-left: 8px;
+        display: inline;
 
 
     }
 
     .vehicle-name {
         font-size: 12px;
-        padding: 7px 45px;
+        padding: 7px 30px;
         margin-bottom: 20px;
+        margin-left: 0px;
     }
 
     .car-4,
