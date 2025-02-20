@@ -199,7 +199,7 @@
     }
     
     .main-3-2-left{
-
+        margin-bottom: 30px;
     
     }
 
@@ -227,11 +227,83 @@
         font-size: 14px;
         margin-left: -19px;
     }
+
+    /* ------------------------------------------- */
     
+    .main-4{
+        height: 700px;
+    }
+
+    .main-4 h1{
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    .carousel-container {
+        width: 360px; 
+        /* height: 300px; */
+        overflow-x: auto; 
+        scroll-snap-type: x mandatory; 
+        display: flex;
+        gap: 10px;
+        scroll-behavior: smooth; 
+    }
+
+    .carousel {
+        display: flex;
+        white-space: nowrap;
+    }
+
+    .news {
+        width: 360px; 
+        height: 600px; 
+        overflow: hidden; 
+        text-overflow: ellipsis; 
+        word-wrap: break-word; 
+        white-space: normal; 
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 0px;
+    }
+    .news-1, .news-2, .news-3, .news-4{
+        width: 300px;
+    }
+
+    .news img{
+        width: 300px;
+        height: 240px;
+    }
+    .carousel-container::-webkit-scrollbar {
+        display: none;
+    }
     
+    .carousel img{
+        height: 200px;
+        width: 310px;
+        margin-bottom: 40px;
+        
+    }
+    .carousel h4{
+        font-size: 20px;
+        line-height: 30px;
+        font-family:"Titillium Web", serif;
+        margin-bottom: 30px;
+        width: 310px;
+    }
     
+    .carousel p{
+        width: 310px;
+        font-size: 18px;
+        font-weight: light;
+        line-height: 30px;
+        color: rgb(231, 231, 231);
+    }
+
+
+
+
     
-    .main-4, .main-5, .main-6, footer{
+    .main-5, .main-6, footer{
         display: none;
     }
     
