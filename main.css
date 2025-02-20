@@ -432,13 +432,14 @@ body{
 
 
 .name, .email{
-    padding: 10px 80px 10px 0px
+    padding: 10px 80px 10px 0px;
 }
 
 
 .message{
     display: block;
     /* justify-content: center; */
+    padding: 10px 80px 10px 0px;
     margin-left: 457px;
     width: 429px;
     height: 60px;
