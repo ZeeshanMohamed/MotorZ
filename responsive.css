@@ -168,7 +168,7 @@
     .popup-img {
         height: 275px;
         width: 354px;
-        margin-left: 7px;
+        margin-left: 0px;
     }
 
     .popup-container {
@@ -182,7 +182,7 @@
     }
 
     .popup-text {
-        margin-left: 7px;
+        margin-left: 0px;
         position: absolute;
         /* bottom: -50px; */
         left: 0;
@@ -425,7 +425,7 @@
     /* ------------------------------------------- */
     .main-6{
         font-size: 1em;
-        height: 1550px;
+        height: 1650px;
     }
 
     .main-6 h1{
