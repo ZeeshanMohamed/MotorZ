@@ -452,7 +452,7 @@
     
     #contact-salutation{
         
-        width: 89%;
+        width: 89.5%;
         padding: 10px 127px 10px 5px;
         /* margin-left: 5px; */
         outline: none;
@@ -467,7 +467,7 @@
     }
 
     #message{
-    width: 87%;
+    width: 87.5%;
     height: 70px;
     border: none;
     outline: none;
